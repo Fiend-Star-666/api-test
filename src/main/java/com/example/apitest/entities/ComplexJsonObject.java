@@ -18,4 +18,3 @@ public class ComplexJsonObject {
     private List<String> tags;
     private Map<String, String> metadata;
 }
-

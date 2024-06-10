@@ -3,7 +3,6 @@ package com.example.apitest.controllers;
 
 import com.example.apitest.entities.ComplexJsonObject;
 import com.example.apitest.services.JsonService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,7 +17,6 @@ public class JsonController {
 
     private final JsonService jsonService;
 
-    @Autowired
     public JsonController(JsonService jsonService) {
         this.jsonService = jsonService;
     }
@@ -44,4 +42,3 @@ public class JsonController {
     }
 
 }
-
